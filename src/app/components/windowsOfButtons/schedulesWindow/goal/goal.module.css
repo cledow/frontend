@@ -1,0 +1,42 @@
+.container {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  border-bottom: solid 1px rgba(153, 0, 51, 0.7);
+  margin-top: 10px;
+  height: 100%;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  white-space : nowrap;
+  margin-top: 10px;
+}
+
+.calendar img {
+  cursor: pointer;
+  margin : 0 12px 0 12px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.calendar img:hover {
+  opacity: 1;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px; 
+}
+
+.todo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}

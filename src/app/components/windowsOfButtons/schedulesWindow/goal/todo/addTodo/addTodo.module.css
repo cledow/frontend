@@ -1,0 +1,31 @@
+.addForm {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.addInput{
+  flex: 1 0 auto;
+  padding: 5px;
+  border: 1px solid rgba(104, 7, 40, 0.5);
+  outline: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: transparent;
+  height: 40px;
+}
+
+.addButton {
+  background-color: rgba(104, 7, 40, 0.9);
+  color: white;
+  font-weight: bold;
+  padding: 0 15px; 
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  filter: brightness(125%);
+}

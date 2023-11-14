@@ -1,0 +1,38 @@
+.todoHeader{
+  display: flex;
+  margin-top : 20px;
+  padding-top: 10px;
+  align-items: center;
+  border-top: 1px solid rgba(114, 114, 114, 0.5);
+  justify-content: center;
+  margin: 0 30px 0 30px;
+}
+
+.filters{
+  display: flex;
+}
+
+.filter{
+  padding: 0 30px 0 30px;
+  outline: none;
+  white-space: nowrap;
+  font-size: 15px;
+  margin: 0;
+  text-transform: capitalize;
+  background-color: transparent;
+  display: flex;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.filter:hover, .filter:selected {
+  opacity: 1;
+}
+
+.filter.selected::after {
+  content: '';
+  display: block;
+  margin-top: 0.2rem;
+  border: 1px solid var(--color-text);
+  /* solid : 밑줄 */
+}

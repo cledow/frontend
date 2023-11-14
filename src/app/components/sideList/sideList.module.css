@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Jua";
+  src: url('../../../../public/fonts/Jua-Regular.woff');
+}
+
+@font-face {
+  font-family: "IBM";
+  src: url('../../../../public/fonts/IBMPlexSansKR-Light.woff');
+}
+
+.side{
+  padding-top: 40px;
+  width: 170px;
+  height: 100vh;
+  /* color: black;
+  background-color: rgb(255, 255, 255); */
+  /* box-shadow: 2px 0px 6px 0px rgba(173,172,172,0.75);
+  -webkit-box-shadow: 2px 0px 6px 0px rgba(173,172,172,0.75);
+  -moz-box-shadow: 2px 0px 6px 0px rgba(173,172,172,0.75); */
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../../../public/images/sideimage2.jpg');
+  background-size: cover;
+  left: 300px;
+}
+
+
+.side .profile p {
+  font-size: 12px;
+  padding: 15px 0 0 0;
+  text-align: center;
+  color:white;
+}
+
+.profile img {
+  border-radius: 30px;
+  width: 128px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.preList {
+  border-top: 1px solid rgba(0, 0, 0, 0.2) ;
+  margin-top: 30px;
+  line-height: 65px;
+  font-size: 14px;
+  font-weight: lighter;
+  outline: 0;
+}
+
+:is(.preList .list a):focus {
+  outline: none;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  font-weight: bolder;
+  background-color: transparent;
+  border : none;
+  overflow: hidden;
+  padding: 10px 0 10px 0;
+  outline: 0;
+}
+
+.list a {
+  margin: 0 auto;
+  font-weight: bolder;
+  color:white;
+  width: 93%;
+  height: 46px;
+  line-height: 46px;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.list a:hover {
+  background-color: rgba(245, 232, 232, 0.5);
+  color : purple;
+} 
+
+.list img {
+  margin-left: 40px;
+  padding-left: 10px;
+}

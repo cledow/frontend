@@ -1,0 +1,81 @@
+.modal {
+  top: 20%;
+  left: 41%;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border: solid 1px black;
+  background: rgba(30, 30, 31, 1);
+  color: white;
+  border-radius: 3%;
+}
+
+.todoBox,
+.repeatSettingBox,
+.simpleMemoBox,
+.submitBox {
+  margin-top: 30px
+}
+
+.todoBox .todoTitle {
+  display: flex;
+}
+
+.todoBox .todoInput {
+  height: 32px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px 0 0 20px;
+  outline: none;
+  padding-left: 10px;
+  background: rgba(4, 0, 27, 0.5);
+}
+
+.repeatSettingTitle {
+  display: flex;
+}
+
+.settingCategories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.simpleMemoBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.simpleMemoTitle {
+  display: flex;
+}
+
+.submitBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.confirmBtn {
+  border-radius: 3px;
+  width: 90px;
+  height: 38px;
+  background: rgba(0, 0, 255, 0.8);
+  color: white;
+  transition: all 0.3s;
+}
+
+.cancelBtn {
+  border-radius: 3px;
+  width: 90px;
+  height: 38px;
+  background: rgb(38, 38, 38, 0.5);
+  color: white;
+  transition: all 0.3s;
+}
+
+.confirmBtn:hover {
+  background: rgba(0, 0, 255, 1);
+}
+
+.cancelBtn.hover {
+  filter: brightness(125%);
+}

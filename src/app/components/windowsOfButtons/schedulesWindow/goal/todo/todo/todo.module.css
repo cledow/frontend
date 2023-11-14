@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: rgba(187, 201, 208, 0.5);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* 메인 체크박스 */
+.mainCheckbox {
+  /* display: none; */
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  appearance: none;
+  border: 1px solid rgb(0, 0, 100);
+  cursor: pointer;
+}
+
+.mainCheckbox:checked {
+  background-color: #c2e2f0;
+  background-size: 70% 70%;
+  background-image: url('../../../../../../../../public/images/icons/check.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.mainCheckbox:focus {
+  outline : 1px solid navy;
+}
+
+/* 완료여부 체크박스 */
+.checkbox {
+  width: 17px;
+  height: 17px;
+  appearance: none;
+  border: 1px solid rgb(0, 0, 75);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 240);
+}
+
+.checkbox:checked {
+  /* border-color: transparent; */
+  background-size: 70% 70%;
+  background-image: url('../../../../../../../../public/images/icons/check.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: rgb(207, 211, 207);
+}
+
+.checkbox:focus {
+  outline: none;
+  /* border: 2px solid rgb(0, 0, 75); */
+}
+
+.completed {
+  flex: 1 1 0%;
+  margin-left: 0.5rem;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.active {
+  flex: 1 1 0%;
+  margin-left: 0.5rem;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.todoSection {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px 0 30px;
+  height: 45px;
+  width: 380px;
+
+}
+
+.icon {
+  margin: 0 5px 0 5px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  transition: all 150ms ease-out;
+}
+
+.icon input {
+  display: none;
+  
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.deleteButton {
+  background-color: transparent;
+}
+

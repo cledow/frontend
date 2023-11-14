@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "IBM";
+  src: url('../../../../../../public/fonts/IBMPlexSansKR-Light.woff');
+}
+
+.TimerProgram{
+  font-size: 20px;
+}

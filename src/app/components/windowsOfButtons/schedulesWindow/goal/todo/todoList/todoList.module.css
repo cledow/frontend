@@ -1,0 +1,26 @@
+.container {
+  height: 44vh;
+  min-height: 0;  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+.addList {
+  flex-grow: 1; 
+  overflow-y : auto;  /* 스크롤 */
+  text-align: left;
+}
+
+.middleSpace {
+  height:20px 
+}
+
+.addForm {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}

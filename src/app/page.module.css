@@ -1,0 +1,57 @@
+.side-menu {
+  position: absolute;
+  left: -200px;
+  transition: left 0.3s ease-in-out;
+}
+
+.visible {
+  left: 0;
+}
+
+.hidden {
+  left: -200px;
+}
+
+.background {
+  z-index: -10;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../public/images/backgroundc.jpeg');
+  background-size: cover;
+}
+
+.mainbuttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 35%;
+  top: 85%;
+  width: 600px;
+  height: 110px;
+}
+
+.window {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  width: 500px;
+  height: 520px;
+  font-size: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: saturate(120%) blur(4px);
+  -webkit-backdrop-filter: saturate(120%) blur(4px);
+  border-radius: 15px ;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.window .close {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: -40px;
+  left: 470px;
+}
