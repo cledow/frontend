@@ -458,8 +458,13 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/sideList/sideList.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-  font-family: "Jua";
-  src: url(/_next/static/media/Jua-Regular.e6c8726c.woff);
+  font-family: "SoraRegular";
+  src: url(/_next/static/media/Sora-Regular.9d34d754.woff);
+}
+
+@font-face {
+  font-family: "SoraLight";
+  src: url(/_next/static/media/Sora-Light.f33809fe.woff);
 }
 
 @font-face {
@@ -720,12 +725,12 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border: 1px solid rgb(0, 0, 100);
+  border: 1px solid rgb(7, 40, 20);
   cursor: pointer;
 }
 
 .todo_mainCheckbox__Wr4so:checked {
-  background-color: #c2e2f0;
+  background-color: rgb(191, 218, 198);
   background-size: 70% 70%;
   background-image: url(/_next/static/media/check.fa22793c.png);
   background-position: 50%;
@@ -743,7 +748,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border: 1px solid rgb(0, 0, 75);
+  border: 1px solid rgb(7, 40, 20);
   border-radius: 5px;
   background-color: rgb(255, 255, 240);
 }
@@ -845,7 +850,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   font-size: 20px;
   text-align: center;
   position: relative;
-  border-bottom: solid 1px rgba(153, 0, 51, 0.7);
+  /* border-bottom: solid 1px rgba(153, 0, 51, 0.7); */
   margin-top: 10px;
   height: 100%;
 }
@@ -883,16 +888,58 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   width: 100%;
   margin-top: 20px;
 }
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/windowsOfButtons/schedulesWindow/timer/TimerProgram.module.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-  font-family: "IBM";
-  src: url(/_next/static/media/IBMPlexSansKR-Light.6fc2c297.woff);
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/windowsOfButtons/schedulesWindow/timer/stopwatch/stopwatch.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.stopwatch_stopwatchContainer__ZP_ri {
+  display: flex;
 }
 
-.TimerProgram_TimerProgram__Osegb{
+.stopwatch_timeDisplay__1VsLG {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.stopwatch_buttonsContainer__I8_Jw {
+  display: flex;
+  gap: 10px;
+}
+
+.stopwatch_buttonsContainer__I8_Jw button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/windowsOfButtons/schedulesWindow/timer/timer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.timer_title__rejLl {
   font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.timer_todayRecord__Ag65M {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.timer_stopwatch__ixA8V {
+  display: flex;
+  align-items: center;
+}
+
+.timer_stopwatchTitle__7Is_8 {
+  font-size: 30px;
+  color: rgb(7, 40, 20);
+}
+
+.timer_timer__Rnzd_ {
+  display: flex;
+  align-items: center;
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/windowsOfButtons/schedulesWindow/ScheduleWindow.module.css ***!
@@ -929,6 +976,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .ScheduleWindow_footer__xi7Pu {
   display: flex;
   justify-content: space-evenly;
+  border-top: 1px solid rgba(7, 40, 20, 0.5);
 }
 
 .ScheduleWindow_underMenu__hYs3k {
@@ -977,6 +1025,9 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   position: absolute;
   left: -200px;
   transition: left 0.3s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;  /* Copy & Paste 방지 */  
 }
 
 .page_visible__NlJV_ {

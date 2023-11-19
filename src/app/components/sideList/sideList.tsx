@@ -12,7 +12,7 @@ export type Props = {
 
 export default function SideList({ category, index, address }: Props) {
   return (
-    <li key={index} className={styles.list} style={{ fontFamily: "IBM" }}>
+    <li key={index} className={styles.list} style={{ fontFamily: "SoraLight" }}>
       <Link href={address==="home" ? '/' : `/${address}`}>{category}</Link>
       {/* <Image src={""} alt={""} width={40} height={40} /> //새 게시물 new 아이콘 */}
     </li>

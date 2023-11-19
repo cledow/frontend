@@ -15,12 +15,12 @@
   height: 18px;
   border-radius: 50%;
   appearance: none;
-  border: 1px solid rgb(0, 0, 100);
+  border: 1px solid rgb(7, 40, 20);
   cursor: pointer;
 }
 
 .mainCheckbox:checked {
-  background-color: #c2e2f0;
+  background-color: rgb(191, 218, 198);
   background-size: 70% 70%;
   background-image: url('../../../../../../../../public/images/icons/check.png');
   background-position: 50%;
@@ -36,7 +36,7 @@
   width: 17px;
   height: 17px;
   appearance: none;
-  border: 1px solid rgb(0, 0, 75);
+  border: 1px solid rgb(7, 40, 20);
   border-radius: 5px;
   background-color: rgb(255, 255, 240);
 }

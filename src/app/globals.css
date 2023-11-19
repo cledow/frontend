@@ -18,12 +18,23 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
-/*body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}*/
+
+@font-face {
+  font-family: "SoraMedium";
+  src: url('../../public/fonts/Sora-Medium.woff');
+}
+
+@font-face {
+  font-family: "SoraLight";
+  src: url('../../public/fonts/Sora-Light.woff');
+}
+
+@font-face {
+  font-family: "SoraThin";
+  src: url('../../public/fonts/Sora-Thin.woff');
+}
+
+@font-face {
+  font-family: "SoraRegular";
+  src: url('../../public/fonts/Sora-Regular.woff');
+}

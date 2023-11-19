@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Jua";
-  src: url('../../../../public/fonts/Jua-Regular.woff');
+  font-family: "SoraRegular";
+  src: url('../../../../public/fonts/Sora-Regular.woff');
+}
+
+@font-face {
+  font-family: "SoraLight";
+  src: url('../../../../public/fonts/Sora-Light.woff');
 }
 
 @font-face {

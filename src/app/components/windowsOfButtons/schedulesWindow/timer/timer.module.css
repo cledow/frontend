@@ -1,0 +1,28 @@
+.title {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.todayRecord {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.stopwatch {
+  display: flex;
+  align-items: center;
+}
+
+.stopwatchTitle {
+  font-size: 30px;
+  color: rgb(7, 40, 20);
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}

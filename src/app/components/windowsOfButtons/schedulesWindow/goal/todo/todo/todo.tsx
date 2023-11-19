@@ -74,7 +74,7 @@ export default function Todo({ todo, onUpdate, onDelete, onEdit }: any) {
           </label>
           <span className={styles.icon}>
             <label>
-              {bookmark ? <PiStarFill style={{color:'rgb(0, 0, 80)'}}/> : <PiStarLight style={{color:'rgb(0, 0, 80)'}}/>}
+              {bookmark ? <PiStarFill style={{color:'rgba(10, 57, 29, 0.9)'}}/> : <PiStarLight style={{color:'rgb(7, 40, 20)'}}/>}
               <input
                 type="checkbox"
                 id={id}
@@ -92,7 +92,7 @@ export default function Todo({ todo, onUpdate, onDelete, onEdit }: any) {
           )}
           <span className={styles.icon}>
             <button onClick={handleDelete} className={styles.deleteButton}>
-              <PiTrash style={{color:'rgb(0, 0, 80)'}}/>
+              <PiTrash style={{color:'rgb(7, 40, 20)'}}/>
             </button>
           </span>
         </section>

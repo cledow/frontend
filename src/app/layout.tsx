@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={IBM.className}>
+    <html lang="en" style={{ fontFamily: "SoraRegular" }}>
       <body>
         <main>{children}</main>
       </body>
